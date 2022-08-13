@@ -28,6 +28,7 @@ body {
 }
 section {
     height: calc(100vh - 50px);
+    width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -47,8 +48,8 @@ table {
 
 
 .left {
-    width: 50%;
-    max-width: 50%;
+    width: 60%;
+    max-width: 60%;
     background-image: url('/images/twitter-bg.png');
     background-size: cover;
     background-position: center;
@@ -58,7 +59,7 @@ table {
 }
 
 svg {
-    width: 300px;
+    width: 350px;
 }
 
 .right {
@@ -103,12 +104,20 @@ p {
     font-size: 11px;
 }
 
-/* footer {
+footer {
     height: 50px;
 }
 
-footer ul {
+footer div {
     display: flex;
-    flex-wrap: wrap;
-} */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+footer div a {
+    font-size: 13px;
+    color: gray;
+}
 
